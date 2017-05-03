@@ -1,3 +1,6 @@
+## forked from constb/docker-bitrix-env 
+Added mysqli.so to php.ini
+
 # Standard Bitrix Environment on latest CentOS 6
 
 Bitrix CMS contains features that require certain modules and settings. 1C provides a `bitrix-env` shell script that automates installing and setting everything up on a clean CentOS 6 system. This enables us to automate creation of a docker container with ready-to-run Bitrix CMS environment.
